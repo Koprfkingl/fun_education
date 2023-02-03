@@ -30,3 +30,15 @@ def superAdder():
     return a + b
 
 print(superAdder())
+
+""" RK COMMENT
+Pokud zapnu program a ukončím ho při zadávání (v pycharmu zastavit, ctrl+c v konzoli atd), vyhodí to následující:
+
+Traceback (most recent call last):
+
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen codecs>", line 319, in decode
+KeyboardInterrupt
+
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+"""

@@ -47,3 +47,18 @@ def word_counter():
 
 # RUNTIME
 print(word_counter())
+
+""" 
+RK COMMENT
+
+Stejně jako u add_two_numbers, když to ukončím během zadávání, vyhodí to:
+
+  File "<frozen codecs>", line 319, in decode
+KeyboardInterrupt
+
+Process finished with exit code -1073741510 (0xC000013A: interrupted by Ctrl+C)
+
+Dál, pro vstup: rudolf klusal    je nejlepší
+
+to vypíše, že 7. Ale přitom jen 4 :-)
+"""
