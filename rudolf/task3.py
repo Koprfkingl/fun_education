@@ -20,6 +20,7 @@ nejvyšší tři čísla.
 
 def greatest():
     # list to store user values
+    # RK: Pojďme udělat docstringy a type-hinty :-)
     numbers_storage = []
 
     # storage of function output
@@ -33,10 +34,14 @@ def greatest():
         if not user_value:
             return 'nic' # RK: Kombinace angličtiny a 'nic' je funny :-D
 
+        # RK: Když zadávám čísla a omylem zmáčknu 2× enter, napíše to "nic" a skončí.
+        # Udělal bych to prostě trošku víc "jůžrfrenly," prostě zadám nic, prostě to řekne něco
+        # jako "okey, tuto se nepovedlo," ale jede se dál :-)
+
         # end of user input
         if user_value == 'konec':
             # user entered less than 3 values -
-            if len(numbers_storage) < 3:
+            if len(numbers_storage) < 3: # RK: Tahle podmínka se mi moc nelíbí, pokud zadám 3 čísla, vrátil bych to taky.
                 numbers_storage.sort()
                 return numbers_storage
             break
@@ -54,16 +59,18 @@ def greatest():
             # as it is not obvious what should function return at this point
             # I am going for break clause, adjustments possible later
             # (after discussion...)
+
+            # RK: Eyup, again like before I'd rather see "okay, no valid number, life goes on" :-)
             break
 
         # add given user value to list of values
         numbers_storage.append(user_value)
 
         # sort list of user choices, order not specified -> default used
-        numbers_storage.sort()
+        numbers_storage.sort() # RK: Znovu třídění, to už máš jinde :-) Neříkám, že je to špatně, ale...
 
     # slice the list for last three elements
-    output_list = numbers_storage[-1:-4:-1]
+    output_list = numbers_storage[-1:-4:-1] # RK: Clever!
     return output_list
 
 
