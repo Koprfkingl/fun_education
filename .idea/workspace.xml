@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d3aa7e1-cbad-4d9d-9367-4599dffd3fbb" name="Changes" comment="3. rudolf python task&#10;&#10;the simplest possible solution to the third rudolf's task I can possibly find.&#10;&#10;also created separate branch for rudolf's tasks.">
+      <change beforePath="$PROJECT_DIR$/advent_of_code_2022.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/d1t1_2022.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/d1t1_input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/d1t2_2022.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="f073eb36d1f56258a37cf5a393087da362f6c47b" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ce2488f3-0a00-4b99-8667-88ff7c4fb1fd" />
+        <option name="url" value="https://github.com/Koprfkingl/fun_education.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JsV4g5ZBQekNb6agfvpxpEtyzb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sykor\PycharmProjects\fun_education\rudolf" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d3aa7e1-cbad-4d9d-9367-4599dffd3fbb" name="Changes" comment="" />
+      <created>1672866587762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672866587762</updated>
+    </task>
+    <task id="LOCAL-00001" summary="3. rudolf python task&#10;&#10;the simplest possible solution to the third rudolf's task I can possibly find.&#10;&#10;also created separate branch for rudolf's tasks.">
+      <created>1676419420911</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676419420911</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="52" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="34" />
+                  <entry key="Table.Space.CommitStatus.ColumnIdWidth" value="34" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="3. rudolf python task&#10;&#10;the simplest possible solution to the third rudolf's task I can possibly find.&#10;&#10;also created separate branch for rudolf's tasks." />
+    <option name="LAST_COMMIT_MESSAGE" value="3. rudolf python task&#10;&#10;the simplest possible solution to the third rudolf's task I can possibly find.&#10;&#10;also created separate branch for rudolf's tasks." />
+  </component>
+</project>
