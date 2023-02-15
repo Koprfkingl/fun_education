@@ -1,7 +1,7 @@
 # =============================================================================
 # Author: Michal Sykora
 # Date: 14.2.2023
-# Trademark: ®️
+# Trademark: ®️ RK: LOL
 # =============================================================================
 
 """
@@ -31,7 +31,7 @@ def greatest():
 
         # no user input -> print 'nic'
         if not user_value:
-            return 'nic'
+            return 'nic' # RK: Kombinace angličtiny a 'nic' je funny :-D
 
         # end of user input
         if user_value == 'konec':
@@ -44,7 +44,7 @@ def greatest():
         # being suspicious about user's ill minds check for providing correct
         # input is needed. classical python mentality is to ask for forgiveness
         # rather than permission, therefore if statement testing for int type
-        # is not the best solution. try - except statement is recommended instead
+        # is not the best solution. try - except statement is recommended instead # RK LOOOL :-D
         try:
             # convert user value to integer
             user_value = int(user_value)
@@ -68,4 +68,7 @@ def greatest():
 
 
 # RUNTIME
+# RK: Víš, co ti k tomu tady řeknu -- když to načtu jako modul, automaticky se spustí :-) Řešení znáš :-)
 print(greatest())
+
+# RK: Hej, funguje, jdu spát, vstávám v 5 :-D Zítra mrknu víc, čus :-)
