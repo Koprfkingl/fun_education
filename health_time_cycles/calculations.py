@@ -31,9 +31,9 @@ def timer(how_long: int = 60) -> bool:
             current_time = int(time.time())
             # wait a minute
             time_remaining = target_time - current_time
-            time.sleep(10)
             print(f'time remaining: {time_remaining}')
-
+            time.sleep(10)
+            return time_remaining
 
 if __name__ == "__main__":
     print(timer(1))

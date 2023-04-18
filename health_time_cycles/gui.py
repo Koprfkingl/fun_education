@@ -6,10 +6,20 @@ date: 17.4.2023
 license: free garbage ®
 """
 
+import threading
+import time
+
 # imports
 import PySimpleGUI as sg
 
-import calculations
+
+def long_operation(how_long):
+    # convert given time in minutest to time in seconds
+    how_long = int(how_long) * 60
+    time.sleep(10)
+    # reduce remaining time
+    how_long = how_long - 10
+    return how_long
 
 
 def gui(theme: str = ''):
@@ -38,12 +48,21 @@ def gui(theme: str = ''):
 
         # sitting button "RUN" pressed
         if event == 'RUN':
-            # store user entered value
-            sitting_countdown = values[0]
-            sitting_output = calculations.timer(sitting_countdown)
-            print('sitting countdown is ', sitting_output)
-            # update layout with user value
-            window['sitting'].update(sitting_output)
+            # create thread for wait loop
+            thread = threading.Thread(target=long_operation)
+            thread.start()
+
+            # iterate until remaining time == 0
+            while True:
+
+                # obtain user choice
+                how_long = int(values[0])
+                if how_long > 0:
+                    # wait 10s
+                    how_long = long_operation(how_long)
+                    # show wait counter in the window
+                    window['sitting'].update(how_long)
+                    window.refresh()
 
         # drinking button "RUN" pressed
         if event == 'RUN0':
