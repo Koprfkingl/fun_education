@@ -67,7 +67,6 @@ print(f'Name of my third car {octavia.name}')
 
 # INHERITANCE
 
-
 class SpecificCar(Car):
     # class attributes
     color = ''
@@ -141,6 +140,39 @@ print('')
 moje_octavia.ride()
 
 # POLYMORPHISM
+class Species:
+    def intro(self):
+        print("There are many types of beings")
+
+    def flight(self):
+        print('some can fly, some not.')
+
+class Bird(Species):
+    def flight(self):
+        print('Birds usually fly, exceptions apply')
+class Knife(Species):
+    def flight(self):
+        print('Knives usually do not fly, exceptions apply under certain condition')
+class Shuttle(Species):
+    def flight(self):
+        print('Space shuttles used to fly a lot, sometimes in lot of pieces.')
+# create instances
+obj_Species = Species()
+obj_Bird = Bird()
+obj_knife = Knife()
+obj_Shuttle = Shuttle()
+
+obj_Species.intro()
+obj_Species.flight()
+
+obj_Bird.intro()
+obj_Bird.flight()
+
+obj_knife.intro()
+obj_knife.flight()
+
+obj_Shuttle.intro()
+obj_Shuttle.flight()
 
 # ENCAPSULATION
 
